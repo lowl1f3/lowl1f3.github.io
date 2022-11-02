@@ -14,7 +14,6 @@ body
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-image: url(pattern.png);
 	background-color: #FFF590;
 	padding: 100px;
 }
