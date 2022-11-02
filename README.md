@@ -1,1 +1,1 @@
-[GitHub page](https://lowl1f3.github.io/)
+[GitHub Page](https://lowl1f3.github.io/)
