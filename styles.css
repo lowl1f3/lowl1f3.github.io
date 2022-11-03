@@ -69,3 +69,25 @@ body
 	margin: 10px;
 	border-radius: 40px;
 }
+
+/* Scrollbar /*
+
+/* Width */
+::-webkit-scrollbar
+{
+	width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb
+{
+	background: #888;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+{
+	background: #555;
+	border-radius: 10px;
+}
