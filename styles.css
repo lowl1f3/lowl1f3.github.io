@@ -39,13 +39,43 @@ body
 {
 	margin: 20px;
 }
+.telegram img
+{
+	transition: transform .3s ease;
+}
+.telegram:hover img
+{
+	overflow: hidden;
+	transition: transform 0.5s ease;
+	transform: scale(1.1);
+}
 .discord
 {
 	margin: 20px;
 }
+.discord img
+{
+	transition: transform .3s ease;
+}
+.discord:hover img
+{
+	overflow: hidden;
+	transition: transform 0.5s ease;
+	transform: scale(1.1);
+}
 .github
 {
 	margin: 20px;
+}
+.github img
+{
+	transition: transform .3s ease;
+}
+.github:hover img
+{
+	overflow: hidden;
+	transition: transform 0.5s ease;
+	transform: scale(1.1);
 }
 .imghead
 { 
@@ -77,14 +107,12 @@ body
 {
 	width: 8px;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb
 {
 	background: #888;
 	border-radius: 10px;
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover
 {
