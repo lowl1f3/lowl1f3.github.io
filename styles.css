@@ -28,6 +28,23 @@ body
 	color: #F57F17;
 	text-align: center;
 }
+.tooltiptext
+{
+	visibility: hidden;
+	background-color: black;
+	color: #F59F50;
+	text-align: center;
+	border-radius: 10px;
+	padding: 6px 0;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	width: 96px;
+	top: 105%;
+	left: 50%;
+	margin-left: -48px;
+}
 .social
 {
 	display: flex;
@@ -38,6 +55,8 @@ body
 .telegram
 {
 	margin: 20px;
+	position: relative;
+	display: inline-block;
 }
 .telegram img
 {
@@ -49,13 +68,21 @@ body
 	transition: transform 0.5s ease;
 	transform: scale(1.1);
 }
+.telegram:hover .tooltiptext
+{
+	visibility: visible;
+}
 .discord
 {
 	margin: 20px;
+	position: relative;
+	display: inline-block;
 }
 .discord img
 {
 	transition: transform .3s ease;
+	position: relative;
+	display: inline-block;
 }
 .discord:hover img
 {
@@ -63,9 +90,15 @@ body
 	transition: transform 0.5s ease;
 	transform: scale(1.1);
 }
+.discord:hover .tooltiptext
+{
+	visibility: visible;
+}
 .github
 {
 	margin: 20px;
+	position: relative;
+	display: inline-block;
 }
 .github img
 {
@@ -76,6 +109,10 @@ body
 	overflow: hidden;
 	transition: transform 0.5s ease;
 	transform: scale(1.1);
+}
+.github:hover .tooltiptext
+{
+	visibility: visible;
 }
 .imghead
 { 
