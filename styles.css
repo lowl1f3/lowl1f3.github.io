@@ -45,6 +45,11 @@ body
 	left: 50%;
 	margin-left: -48px;
 }
+@keyframes ani
+{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
 .social
 {
 	display: flex;
@@ -60,7 +65,7 @@ body
 }
 .telegram img
 {
-	transition: transform .3s ease;
+	transition: transform 0.3s ease;
 }
 .telegram:hover img
 {
@@ -71,6 +76,8 @@ body
 .telegram:hover .tooltiptext
 {
 	visibility: visible;
+	opacity: 0;
+	animation: ani 0.5s forwards;
 }
 .discord
 {
@@ -93,6 +100,8 @@ body
 .discord:hover .tooltiptext
 {
 	visibility: visible;
+	opacity: 0;
+	animation: ani 0.5s forwards;
 }
 .github
 {
@@ -113,6 +122,8 @@ body
 .github:hover .tooltiptext
 {
 	visibility: visible;
+	opacity: 0;
+	animation: ani 0.5s forwards;
 }
 .imghead
 { 
