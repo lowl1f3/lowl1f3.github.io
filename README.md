@@ -1,1 +1,1 @@
-[GitHub Page](https://lowl1f3.github.io/)
+Simple GitHub Pages for social links
