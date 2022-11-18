@@ -63,7 +63,7 @@ body
 	align-items: center;
 	justify-content: center;
 	background-color: var(--color-primary);
-	padding: 80px;
+	padding: 50px;
 }
 
 .name
