@@ -7,6 +7,7 @@
 
 body
 {
+	transition: background 0.5s ease, color 0.5s ease;
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -32,6 +33,7 @@ body
 
 .themechange
 {
+	transition: background 0.5s ease, color 0.5s ease;
 	color: var(--font-color);
 	display: flex;
 	background: var(--color-primary);
@@ -55,6 +57,7 @@ body
 
 .namehead
 {
+	transition: background 0.5s ease, color 0.5s ease;
 	padding: 10px;
 	margin: 10px;
 	border-radius: 10px;
@@ -68,6 +71,7 @@ body
 
 .name
 {
+	transition: background 0.5s ease, color 0.5s ease;
 	background-color: var(--color-secondary);
 	color: var(--font-color);
 	padding: 10px;
@@ -104,6 +108,7 @@ body
 
 .social
 {
+	transition: background 0.5s ease, color 0.5s ease;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -202,6 +207,7 @@ body
 
 .project
 {
+	transition: background 0.5s ease, color 0.5s ease;
 	margin: 10px;
 	border-radius: 10px;
 	font-style: normal;
