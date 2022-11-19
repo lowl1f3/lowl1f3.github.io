@@ -279,15 +279,14 @@ body
 
 .slider:before
 {
-	background-color: var(--color-secondary);
 	position: absolute;
 	content: "";
+	top: 0;
+	left: 0;
 	height: 40px;
 	width: 40px;
-	left: 0px;
-	bottom: 4px;
-	top: 0;
 	bottom: 0;
+	background-color: var(--color-secondary);
 	margin: auto 0;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
