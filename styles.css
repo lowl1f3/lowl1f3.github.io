@@ -15,6 +15,7 @@ body
 	background-color: var(--color-primary);
 }
 
+/* Light theme colors */
 .theme-light
 {
 	--color-primary: #EAE7DC;
@@ -23,6 +24,7 @@ body
 	--font-color: #000000;
 }
 
+/* Dark theme colors */
 .theme-dark
 {
 	--color-primary: #464866;
@@ -31,6 +33,7 @@ body
 	--font-color: #FFFFFF;
 }
 
+/* Theme change button design */
 .themechange
 {
 	transition: background 0.5s ease, color 0.5s ease;
@@ -54,6 +57,7 @@ body
 	border-radius: 10px;
 	font-size: 20pt;
 }
+/* Theme change button design end */
 
 .namehead
 {
@@ -82,6 +86,7 @@ body
 	text-align: center;
 }
 
+/* Tooltiptext window */
 .tooltiptext
 {
 	visibility: hidden;
@@ -90,7 +95,7 @@ body
 	text-align: center;
 	border-radius: 10px;
 	padding: 6px 0;
-	
+
 	/* Position the tooltip */
 	position: absolute;
 	z-index: 1;
@@ -105,6 +110,7 @@ body
 	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
+/* Tooltiptext window end */
 
 .social
 {
@@ -119,6 +125,7 @@ body
 	border-radius: 15px;
 }
 
+/* Telegram */
 .telegram
 {
 	margin: 20px;
@@ -144,7 +151,9 @@ body
 	opacity: 0;
 	animation: ani 0.5s forwards;
 }
+/* Telegram end */
 
+/* Discord */
 .discord
 {
 	margin: 20px;
@@ -172,7 +181,9 @@ body
 	opacity: 0;
 	animation: ani 0.5s forwards;
 }
+/* Discord end */
 
+/* GitHub */
 .github
 {
 	margin: 20px;
@@ -198,12 +209,7 @@ body
 	opacity: 0;
 	animation: ani 0.5s forwards;
 }
-
-.imghead
-{ 
-	display: block;
-	margin: auto;
-}
+/* GitHub end */
 
 .project
 {
@@ -219,8 +225,7 @@ body
 	text-align: center;
 }
 
-/* Scrollbar /*
-
+/* Scrollbar */
 /* Width */
 ::-webkit-scrollbar
 {
@@ -238,7 +243,9 @@ body
 	background: #555;
 	border-radius: 10px;
 }
+/* Scrollbar end */
 
+/* Theme switch button */
 /* The switch - the box around the slider */
 .switch
 {
@@ -310,6 +317,7 @@ input:checked + .slider:before
 	background-position: center;
 	background-color: var(--color-secondary);
 }
+/* End of the slider */
 
 /* Rounded sliders */
 .slider.round
@@ -321,3 +329,4 @@ input:checked + .slider:before
 {
 	border-radius: 50%;
 }
+/* Theme switch button end */
