@@ -1,6 +1,6 @@
 # About
 
-Simple GitHub Pages for social links
+Simple GitHub Pages for personal social links
 
 ## Donations
 
