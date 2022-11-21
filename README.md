@@ -1,4 +1,4 @@
-# About
+## About
 
 Simple GitHub Pages for personal social links
 
