@@ -1,12 +1,11 @@
-*
-{
+* {
 	padding: 0;
 	margin: 0;
 	font-family: poppins, sans-serif;
+	-webkit-tap-highlight-color: transparent;
 }
 
-body
-{
+body {
 	transition: background 0.5s ease, color 0.5s ease;
 	margin: 0;
 	padding: 0;
@@ -16,8 +15,7 @@ body
 }
 
 /* Light theme colors */
-.theme-light
-{
+.theme-light {
 	--color-primary: #EAE7DC;
 	--color-secondary: #D8C3A5;
 	--color-accent: #FFCB90;
@@ -25,8 +23,7 @@ body
 }
 
 /* Dark theme colors */
-.theme-dark
-{
+.theme-dark {
 	--color-primary: #464866;
 	--color-secondary: #25274D;
 	--color-accent: #AAABB8;
@@ -34,8 +31,7 @@ body
 }
 
 /* Theme change button design */
-.themechange
-{
+.themechange {
 	transition: background 0.5s ease, color 0.5s ease;
 	color: var(--font-color);
 	display: flex;
@@ -46,8 +42,7 @@ body
 	margin: 10px;
 }
 
-.themechange button
-{
+.themechange button {
 	padding: 10px;
 	margin: 20px;
 	color: var(--font-color);
@@ -59,8 +54,7 @@ body
 }
 /* Theme change button design end */
 
-.namehead
-{
+.namehead {
 	transition: background 0.5s ease, color 0.5s ease;
 	padding: 10px;
 	margin: 10px;
@@ -73,8 +67,7 @@ body
 	padding: 50px;
 }
 
-.name
-{
+.name {
 	transition: background 0.5s ease, color 0.5s ease;
 	background-color: var(--color-secondary);
 	color: var(--font-color);
@@ -84,17 +77,18 @@ body
 	font-weight: 500;
 	font-size: 25pt;
 	text-align: center;
+	user-select: none;
 }
 
 /* Tooltiptext window */
-.tooltiptext
-{
+.tooltiptext {
 	visibility: hidden;
 	background-color: var(--color-secondary);
 	color: var(--font-color);
 	text-align: center;
 	border-radius: 10px;
 	padding: 6px 0;
+	user-select: none;
 
 	/* Position the tooltip */
 	position: absolute;
@@ -105,15 +99,13 @@ body
 	margin-left: -48px;
 }
 
-@keyframes ani
-{
+@keyframes ani {
 	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 /* Tooltiptext window end */
 
-.social
-{
+.social {
 	transition: background 0.5s ease, color 0.5s ease;
 	display: flex;
 	flex-direction: row;
@@ -126,27 +118,23 @@ body
 }
 
 /* Telegram */
-.telegram
-{
+.telegram {
 	margin: 20px;
 	position: relative;
 	display: inline-block;
 }
 
-.telegram img
-{
+.telegram img {
 	transition: transform 0.3s ease;
 }
 
-.telegram:hover img
-{
+.telegram:hover img {
 	overflow: hidden;
 	transition: transform 0.5s ease;
 	transform: scale(1.1);
 }
 
-.telegram:hover .tooltiptext
-{
+.telegram:hover .tooltiptext {
 	visibility: visible;
 	opacity: 0;
 	animation: ani 0.5s forwards;
@@ -154,29 +142,25 @@ body
 /* Telegram end */
 
 /* Discord */
-.discord
-{
+.discord {
 	margin: 20px;
 	position: relative;
 	display: inline-block;
 }
 
-.discord img
-{
+.discord img {
 	transition: transform .3s ease;
 	position: relative;
 	display: inline-block;
 }
 
-.discord:hover img
-{
+.discord:hover img {
 	overflow: hidden;
 	transition: transform 0.5s ease;
 	transform: scale(1.1);
 }
 
-.discord:hover .tooltiptext
-{
+.discord:hover .tooltiptext {
 	visibility: visible;
 	opacity: 0;
 	animation: ani 0.5s forwards;
@@ -184,35 +168,30 @@ body
 /* Discord end */
 
 /* GitHub */
-.github
-{
+.github {
 	margin: 20px;
 	position: relative;
 	display: inline-block;
 }
 
-.github img
-{
+.github img {
 	transition: transform .3s ease;
 }
 
-.github:hover img
-{
+.github:hover img {
 	overflow: hidden;
 	transition: transform 0.5s ease;
 	transform: scale(1.1);
 }
 
-.github:hover .tooltiptext
-{
+.github:hover .tooltiptext {
 	visibility: visible;
 	opacity: 0;
 	animation: ani 0.5s forwards;
 }
 /* GitHub end */
 
-.project
-{
+.project {
 	transition: background 0.5s ease, color 0.5s ease;
 	margin: 10px;
 	border-radius: 10px;
@@ -223,23 +202,21 @@ body
 	padding: 80px;
 	color: var(--font-color);
 	text-align: center;
+	user-select: none;
 }
 
 /* Scrollbar */
 /* Width */
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
 	width: 8px;
 }
 /* Handle */
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
 	background: #888;
 	border-radius: 10px;
 }
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover
-{
+::-webkit-scrollbar-thumb:hover {
 	background: #555;
 	border-radius: 10px;
 }
@@ -247,8 +224,7 @@ body
 
 /* Theme switch button */
 /* The switch - the box around the slider */
-.switch
-{
+.switch {
 	position: relative;
 	display: inline-block;
 	width: 60px;
@@ -256,16 +232,14 @@ body
 }
 
 /* Hide default HTML checkbox */
-.switch input
-{
+.switch input {
 	opacity: 0;
 	width: 0;
 	height: 0;
 }
 
 /* The slider */
-.slider
-{
+.slider {
 	position: absolute;
 	cursor: pointer;
 	top: 0;
@@ -277,8 +251,7 @@ body
 	transition: 0.4s;
 }
 
-.slider:before
-{
+.slider:before {
 	position: absolute;
 	content: "";
 	top: 0;
@@ -296,18 +269,15 @@ body
 	background-position: center;
 }
 
-input:checked + .slider
-{
+input:checked + .slider {
 	background-color: var(--color-accent);
 }
 
-input:focus + .slider
-{
+input:focus + .slider {
 	box-shadow: 0 0 1px #2196f3;
 }
 
-input:checked + .slider:before
-{
+input:checked + .slider:before {
 	-webkit-transform: translateX(24px);
 	-ms-transform: translateX(24px);
 	transform: translateX(24px);
@@ -319,13 +289,11 @@ input:checked + .slider:before
 /* End of the slider */
 
 /* Rounded sliders */
-.slider.round
-{
+.slider.round {
 	border-radius: 34px;
 }
 
-.slider.round:before
-{
+.slider.round:before {
 	border-radius: 50%;
 }
 /* Theme switch button end */
