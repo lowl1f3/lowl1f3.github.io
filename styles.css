@@ -16,6 +16,11 @@ body {
 }
 
 
+img::selection {
+	background: #ffffff;
+}
+
+
 /* Light theme colors */
 .theme-light {
 	--color-primary: #EAE7DC;
