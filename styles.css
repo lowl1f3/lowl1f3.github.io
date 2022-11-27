@@ -218,28 +218,28 @@ body {
 	transition: background 0.5s ease, color 0.5s ease;
 	margin: 10px;
 	border-radius: 10px;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 25pt;
 	background-color: var(--color-secondary);
-	padding: 80px;
-	color: var(--font-color);
-	text-align: center;
-	user-select: none;
+	padding: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
 }
 
 
 /* Ko-fi */
 .ko-fi {
-	margin: 20px;
-	position: relative;
-	display: inline-block;
+
 	transition: transform .3s ease;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	transform: scale(1.1);
 }
 
 
 .ko-fi:hover {
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 /* Ko-fi end */
 
