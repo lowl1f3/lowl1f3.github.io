@@ -245,6 +245,7 @@ body {
 
 
 /* Scrollbar */
+
 /* Width */
 ::-webkit-scrollbar {
 	width: 8px;
@@ -349,4 +350,6 @@ input:checked + .slider:before {
 .slider.round:before {
 	border-radius: 50%;
 }
+/* Rounded sliders end */
+
 /* Theme switch button end */
