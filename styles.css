@@ -5,6 +5,7 @@
 	-webkit-tap-highlight-color: transparent;
 }
 
+
 body {
 	transition: background 0.5s ease, color 0.5s ease;
 	margin: 0;
@@ -14,6 +15,7 @@ body {
 	background-color: var(--color-primary);
 }
 
+
 /* Light theme colors */
 .theme-light {
 	--color-primary: #EAE7DC;
@@ -22,6 +24,7 @@ body {
 	--font-color: #000000;
 }
 
+
 /* Dark theme colors */
 .theme-dark {
 	--color-primary: #464866;
@@ -29,6 +32,7 @@ body {
 	--color-accent: #AAABB8;
 	--font-color: #FFFFFF;
 }
+
 
 /* Theme change button design */
 .themechange {
@@ -42,6 +46,7 @@ body {
 	margin: 10px;
 }
 
+
 .themechange button {
 	padding: 10px;
 	margin: 20px;
@@ -53,6 +58,7 @@ body {
 	font-size: 20pt;
 }
 /* Theme change button design end */
+
 
 .namehead {
 	transition: background 0.5s ease, color 0.5s ease;
@@ -67,6 +73,7 @@ body {
 	padding: 50px;
 }
 
+
 .name {
 	transition: background 0.5s ease, color 0.5s ease;
 	background-color: var(--color-secondary);
@@ -79,6 +86,7 @@ body {
 	text-align: center;
 	user-select: none;
 }
+
 
 /* Tooltiptext window */
 .tooltiptext {
@@ -99,11 +107,13 @@ body {
 	margin-left: -48px;
 }
 
+
 @keyframes ani {
 	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 /* Tooltiptext window end */
+
 
 .social {
 	transition: background 0.5s ease, color 0.5s ease;
@@ -117,6 +127,7 @@ body {
 	border-radius: 15px;
 }
 
+
 /* Telegram */
 .telegram {
 	margin: 20px;
@@ -124,15 +135,18 @@ body {
 	display: inline-block;
 }
 
+
 .telegram img {
 	transition: transform 0.3s ease;
 }
+
 
 .telegram:hover img {
 	overflow: hidden;
 	transition: transform 0.5s ease;
 	transform: scale(1.1);
 }
+
 
 .telegram:hover .tooltiptext {
 	visibility: visible;
@@ -141,6 +155,7 @@ body {
 }
 /* Telegram end */
 
+
 /* Discord */
 .discord {
 	margin: 20px;
@@ -148,17 +163,20 @@ body {
 	display: inline-block;
 }
 
+
 .discord img {
 	transition: transform .3s ease;
 	position: relative;
 	display: inline-block;
 }
 
+
 .discord:hover img {
 	overflow: hidden;
 	transition: transform 0.5s ease;
 	transform: scale(1.1);
 }
+
 
 .discord:hover .tooltiptext {
 	visibility: visible;
@@ -167,6 +185,7 @@ body {
 }
 /* Discord end */
 
+
 /* GitHub */
 .github {
 	margin: 20px;
@@ -174,15 +193,18 @@ body {
 	display: inline-block;
 }
 
+
 .github img {
 	transition: transform .3s ease;
 }
+
 
 .github:hover img {
 	overflow: hidden;
 	transition: transform 0.5s ease;
 	transform: scale(1.1);
 }
+
 
 .github:hover .tooltiptext {
 	visibility: visible;
@@ -191,7 +213,8 @@ body {
 }
 /* GitHub end */
 
-.project {
+
+.donations {
 	transition: background 0.5s ease, color 0.5s ease;
 	margin: 10px;
 	border-radius: 10px;
@@ -205,16 +228,36 @@ body {
 	user-select: none;
 }
 
+
+/* Ko-fi */
+.ko-fi {
+	margin: 20px;
+	position: relative;
+	display: inline-block;
+	transition: transform .3s ease;
+}
+
+
+.ko-fi:hover {
+	transform: scale(1.1);
+}
+/* Ko-fi end */
+
+
 /* Scrollbar */
 /* Width */
 ::-webkit-scrollbar {
 	width: 8px;
 }
+
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #888;
 	border-radius: 10px;
 }
+
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
 	background: #555;
@@ -222,7 +265,9 @@ body {
 }
 /* Scrollbar end */
 
+
 /* Theme switch button */
+
 /* The switch - the box around the slider */
 .switch {
 	position: relative;
@@ -231,12 +276,14 @@ body {
 	height: 34px;
 }
 
+
 /* Hide default HTML checkbox */
 .switch input {
 	opacity: 0;
 	width: 0;
 	height: 0;
 }
+
 
 /* The slider */
 .slider {
@@ -250,6 +297,7 @@ body {
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
 }
+
 
 .slider:before {
 	position: absolute;
@@ -269,13 +317,16 @@ body {
 	background-position: center;
 }
 
+
 input:checked + .slider {
 	background-color: var(--color-accent);
 }
 
+
 input:focus + .slider {
 	box-shadow: 0 0 1px #2196f3;
 }
+
 
 input:checked + .slider:before {
 	-webkit-transform: translateX(24px);
@@ -288,10 +339,12 @@ input:checked + .slider:before {
 }
 /* End of the slider */
 
+
 /* Rounded sliders */
 .slider.round {
 	border-radius: 34px;
 }
+
 
 .slider.round:before {
 	border-radius: 50%;
