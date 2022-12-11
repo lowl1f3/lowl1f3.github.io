@@ -71,7 +71,7 @@ img::selection {
 	margin: 10px;
 	border-radius: 10px;
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	background-color: var(--color-primary);
 	padding: 50px;
@@ -225,9 +225,8 @@ img::selection {
 	background-color: var(--color-secondary);
 	padding: 40px;
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
-	position: relative;
+	align-items: center;
 }
 
 
@@ -235,9 +234,9 @@ img::selection {
 .ko-fi {
 
 	transition: transform .3s ease;
-	position: relative;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	transform: scale(1.1);
 }
 
